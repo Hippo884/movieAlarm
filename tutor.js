@@ -3,6 +3,8 @@ const scheduler = require("node-schedule")
 const cheerio = require("cheerio")
 const request = require("request")
 
+const url = "https://www.naver.com"
+
 const server = http.createServer((req, res) => {
     res.writeHead(200,{'Content-Type':'text/html'})
     res.end('Hello World !@#$')
